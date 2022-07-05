@@ -100,5 +100,7 @@
 ## 路线图
 
 ## 联系方式
-- [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/)
+![输入图片说明](image.png)
+## [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/)
+bigdata@openeuler.org
 
