@@ -32,7 +32,7 @@
 
 - sinever
 
-# 项目清单：
+# 项目清单
 | 项目 | 版本 | 状态 | 类别 |
 | ---- | ---- | ---- | ---- |
 | [hadoop](https://gitee.com/src-openeuler/hadoop) | 2. | 已落版本 | 说明 |
@@ -67,5 +67,5 @@
 ### [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/)
 ### 微信公众号：openEuler-bigdata-sig
 
-# 路标：
+# 路标
 
