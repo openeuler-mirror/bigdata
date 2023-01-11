@@ -48,7 +48,6 @@
 | [presto](https://gitee.com/src-openeuler/presto) | 3.1 | 已落版本 | 说明 |
 | [rain](https://gitee.com/src-openeuler/rain) | 3.1 | 已落版本 | 说明 |
 | [ignite](https://gitee.com/src-openeuler/ignite) | 3.1 | 已落版本 | 说明 |
-| [bigtop](https://gitee.com/src-openeuler/bigtop) | 3.1 | 引入中 | 说明 |
 | [flume](https://gitee.com/src-openeuler/flume) | 3.1 | 已落版本 | 说明 |
 | [storm](https://gitee.com/src-openeuler/storm) | 3.1 | 已落版本 | 说明 |
 | [delta](https://gitee.com/src-openeuler/delta) | 3.1 | 已落版本 | 说明 |
@@ -57,9 +56,12 @@
 | [hue](https://gitee.com/src-openeuler/hue) | 3.1 | 已落版本 | 说明 |
 | [oozie](https://gitee.com/src-openeuler/oozie) | 3.1 | 已落版本 | 说明 |
 | [ycsb](https://gitee.com/src-openeuler/ycsb) | 3.1 | 已落版本 | 说明 |
+| [bigtop](https://gitee.com/src-openeuler/bigtop) | 3.1 | 计划引入中 | 说明 |
 
 # 创新项目
-## VectorBlas(https://gitee.com/openeuler/vectorBlas)
+| 项目 | 版本 | 状态 | 类别 |
+| ---- | ---- | ---- | ---- |
+| [VectorBlas](https://gitee.com/openeuler/vectorBlas) | 1.0 | 引入中| 数学库 |
 
 ## 联系方式
 ### [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/)
