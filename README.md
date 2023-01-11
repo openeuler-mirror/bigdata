@@ -22,11 +22,11 @@
 ## 成员
 
 ### Maintainer列表
-  - sinever
+  - [sinever](https://gitee.com/sinever)
   - njlzk
-  - yangzhao_kl
-  - wuzeyi1
-  - unioah
+  - [yangzhao_kl](https://gitee.com/yangzhao_kl)
+  - [wuzeyi1](https://gitee.com/wuzeyi1)
+  - [macchen1](https://gitee.com/macchen1)
 
 ### Committer列表
 
@@ -35,7 +35,7 @@
 # 项目清单
 | 项目 | 版本 | 状态 | 类别 |
 | ---- | ---- | ---- | ---- |
-| [hadoop](https://gitee.com/src-openeuler/hadoop) | 2. | 已落版本 | 说明 |
+| [hadoop](https://gitee.com/src-openeuler/hadoop) | 2.3 | 已落版本 | 说明 |
 | [hadoop-3.1](https://gitee.com/src-openeuler/hadoop-3.1) | 3.1 | 已落版本 | 说明 |
 | [hbase](https://gitee.com/src-openeuler/hbase) | 3.1 | 已落版本 | 说明 |
 | [hive](https://gitee.com/src-openeuler/hive) | 3.1 | 已落版本 | 说明 |
