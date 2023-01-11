@@ -17,6 +17,7 @@
 
 - 两周一次 + 按需出发，请订阅邮件列表获取具体时间和会议链接
 - 线上
+- 订阅邮箱：bigdata@openeuler.org
 
 ## 成员
 
@@ -62,6 +63,5 @@
 
 ## 联系方式
 ### [邮件列表](https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/)
-bigdata@openeuler.org
-### [微信公众号]：openEuler-bigdata-sig
+### 微信公众号：openEuler-bigdata-sig
 
