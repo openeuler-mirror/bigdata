@@ -18,7 +18,7 @@
     - [flink部署指南](部署指南/flink.md)
     - [zookeeper移植指南](移植指南/zookeeper.md)
 - **3-工具包**：存放checkSo工具，及使用方法
-    - [checkSo工具使用指南](checkSo等工具包/checkSo工具使用指南/checkSo.md)
+    - [checkSo工具使用指南](工具包/checkSo工具使用指南/checkSo.md)
 - **4-其他**：不属于上述三类的文档
 
 ## 说明
