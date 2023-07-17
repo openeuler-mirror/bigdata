@@ -17,7 +17,7 @@
 | 服务器  | 组件部署   |
 |---|---|
 | server1 | NameNode、ResourceManager、Timeline Service V2.0 Reader、YARN Registry DNS、Timeline Service V1.5、SNameNode 、History Server、Metricks Collector、Grafana、Activity Analyzer、Activity Explorer、HST Server、Spark2 History Server、Spark2 Thrift Server |
-| agent1 | Zookeeper Server 、DataNode |
+| agent1 | Zookeeper Server、DataNode |
 | agent2 | Zookeeper Server、DataNode |
 | agent3 | Zookeeper Server、DataNode |
 ### 1.4 调优原则
