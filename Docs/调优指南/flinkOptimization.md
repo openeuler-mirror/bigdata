@@ -27,11 +27,13 @@ f. -p：Flink run时附带的参数，即并发度，必须小于等于PARTITION
 Flink作为一个流处理框架，主要作用是处理数据，将数据通过一定的方法计算、统计、分析，最终输出。典型的数据处理场景，即为Kafka、Flink、Redis三个组件共同使用，数据从Kafka获取，Flink进行计算分析，最终将结果写入Redis。
 
 流处理框架，有一定的编程规范，主要思路如图所示。
+
 ![图1 流处理框架](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/Flink/zh-cn_image_0000001089149901.png)
 
 每个Flink程序都可以以类似的方式编写，主要思路即为先定义Flink流处理过程，每个步骤输入输出对齐，最终把数据输出。整个工作流定义完成后，就可以开始执行了，整个执行过程是无限流，永不停止，直到Flink任务被外部kill为止。
 
 yahoo-streaming-benchmark工具主要用途是测试集群Flink处理性能，其测试过程从数据生成->数据写入Kafka->数据从Kafka读出->预处理数据->窗口处理数据->结果写入Redis，端到端的测试Flink流处理过程。主要性能指标为数据吞吐量和处理时延。
+
 ![输入图片说明](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/Flink/zh-cn_image_0000001089006855.png)
 
 数据从Flink其中一个进程生成，不断写入Kafka，由另一个进程读出数据进行处理，最终写入Redis，在Flink job执行完成后，Redis进行结果统计分析。

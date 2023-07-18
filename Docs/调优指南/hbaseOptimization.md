@@ -36,16 +36,14 @@ ZooKeeper是HBase的协调者，主要有以下职责：
 ## 1.2 环境介绍
 ### 物理组网
 
-物理环境采用控制节点*1+数据节点*3的部署方案，在网络层面，管理与业务分离部署，管理网络使用GE电口来进行网络间的通信，业务网络使用10GE光口来进行网络间的通信，组网如[图1](javascript:;)所示。
+物理环境采用控制节点*1+数据节点*3的部署方案，在网络层面，管理与业务分离部署，管理网络使用GE电口来进行网络间的通信，业务网络使用10GE光口来进行网络间的通信，组网如图1所示。
 
-**图1** 物理环境组网
+**图1** 物理环境组网  
 ![点击放大](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/HBase/zh-cn_image_0000001108626930.png)
 
 ### 软件版本
 
-使用到的相关软件版本如[表1](javascript:;)所示。
-
-
+使用到的相关软件版本如表1所示。
 
 | 软件      | 版本                      |
 | --------- | ------------------------- |
@@ -92,58 +90,28 @@ ZooKeeper是HBase的协调者，主要有以下职责：
 
 1. 关闭SMMU。
 
-   
-
    1. 重启服务器，按Esc键进入BIOS设置界面。
 
-   2. 依次进入
-
-      “Advanced > MISC Config > > Support Smmu”
-
-      。
+   2. 依次进入 “Advanced > MISC Config > > Support Smmu”。
 
       **图1** BIOS设置界面
       ![点击放大](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/HBase/zh-cn_image_0000001154826923.png)
 
-   3. 将
-
-      “Support Smmu”
-
-      设置为
-
-      “Disabled”
-
-      ，按“F10”保存退出（永久有效）。
+   3. 将“Support Smmu”设置为“Disabled”，按“F10”保存退出（永久有效）。
 
       **图2** 关闭SMMU BIOS界面
       ![点击放大](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/HBase/zh-cn_image_0000001108147314.png)
 
-   
-
 2. 关闭预取。
-
-   
 
    1. 进入BIOS设置界面。
 
-   2. 依次进入
-
-      “Advanced > MISC Config > CPU Prefetching Configuration”
-
-      。
+   2. 依次进入 “Advanced > MISC Config > CPU Prefetching Configuration” 。
 
       **图3** BIOS设置界面
       ![点击放大](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/HBase/zh-cn_image_0000001154986843.png)
 
-   3. 将
-
-      “CPU Prefetching Configuration”
-
-      设置为
-
-      “Disabled”
-
-      ，按“F10”保存退出（永久有效）。
+   3. 将 “CPU Prefetching Configuration”设置为 “Disabled”，按“F10”保存退出（永久有效）。
 
       **图4** 关闭Prefetching Configuration界面
       ![点击放大](https://www.hikunpeng.com/doc_center/source/zh/kunpengbds/ecosystemEnable/HBase/zh-cn_image_0000001154706973.png)

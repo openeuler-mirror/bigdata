@@ -1,7 +1,8 @@
 ### 1.调优概述
 #### 1.1 Hive介绍
- **Hive工作流** 
-    Hive是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类SQL查询功能。
+**Hive工作流** 
+Hive是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类SQL查询功能。  
+
 ![hive执行任务流程图](https://foruda.gitee.com/images/1679293870604619016/63e29923_12582270.png "hive执行任务流程图")
  **流程大致步骤为：** 
 1）用户提交查询等任务给Driver。
@@ -18,8 +19,9 @@
 2）TEZ引擎。这个是Hive任务的主体。
 
  **Tez引擎** 
-    Tez是基于Hadoop YARN之上的DAG（有向无环图，Directed Acyclic Graph）计算框架。Tez直接源于MapReduce框架，核心思想是将Map和Reduce两个操作进一步拆分，即Map被拆分成Input、Processor、Sort、Merge和Output， Reduce被拆分成Input、Shuffle、Sort、Merge、Processor和Output等，被分解后的元操作可灵活组合，产生新的操作，这些操作经一些控制程序组装后，可形成一个大的DAG作业。采用Tez计算框架，生成一个简洁的DAG作业，算子跑完不退出，下轮继续使用上一轮的算子，这样大大减少磁盘IO操作，从而计算速度更快。
+Tez是基于Hadoop YARN之上的DAG（有向无环图，Directed Acyclic Graph）计算框架。Tez直接源于MapReduce框架，核心思想是将Map和Reduce两个操作进一步拆分，即Map被拆分成Input、Processor、Sort、Merge和Output， Reduce被拆分成Input、Shuffle、Sort、Merge、Processor和Output等，被分解后的元操作可灵活组合，产生新的操作，这些操作经一些控制程序组装后，可形成一个大的DAG作业。采用Tez计算框架，生成一个简洁的DAG作业，算子跑完不退出，下轮继续使用上一轮的算子，这样大大减少磁盘IO操作，从而计算速度更快。  
 ![tez引擎](https://foruda.gitee.com/images/1679294129068361556/cf8c79c8_12582270.png "tez引擎")
+
 总结起来，Tez有以下特点：
 
 1）运行在YARN之上。
@@ -28,7 +30,7 @@
 
 Tez在底层提供了DAG编程接口，用户利用这些接口进行程序编写，其主要由两部分组成：数据处理引擎和DAGAppMaster，其中数据处理引擎为其提供了一套编程接口和数据计算操作符，而DAGAppMaster则是一个YARN ApplicationMaster，它使得Tez应用程序可运行在YARN上。
 
-简单举例演示，例如以下Hive SQL会翻译成四个MR作业，而采用Tez则生成一个DAG作业，可大大减少磁盘IO。
+简单举例演示，例如以下Hive SQL会翻译成四个MR作业，而采用Tez则生成一个DAG作业，可大大减少磁盘IO。  
 ![tez引擎执行任务图](https://foruda.gitee.com/images/1679294292394163183/f5929a81_12582270.png "tez引擎执行任务图")
 
 #### 1.2 环境介绍
@@ -386,7 +388,7 @@ Linux的虚拟内存会根据系统负载自动调整，内存页（page）swap�
 ```
 swapoff -a
 ```
-修改前后对比如下：
+修改前后对比如下：  
 ![输入图片说明](https://foruda.gitee.com/images/1679298358283896974/7a1db435_12582270.png "屏幕截图")
 ### 4.Hive调优
 #### 4.1 组件参数配置

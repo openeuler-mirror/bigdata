@@ -6,7 +6,6 @@
 | 软件  | 版本  |
 |---|---|
 | OS  | openEuler 22.03 |
-| kernel  | 4.19.90-2005.1.0.0038.oe1.aarch64  |
 | JDK  | Openjdk version “1.8.0_272”  |
 | Zookeeper |3.4.9 |
 | Hadoop | 3.1.1 |
