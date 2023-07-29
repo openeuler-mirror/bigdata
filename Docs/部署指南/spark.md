@@ -5,8 +5,8 @@
 | 软件 | 说明 | 获取方法 |
 | ---------------- |---------------- |---------------- |
 |OpenJDK|1.8.0_342|yum安装或者官网获取|
-|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
-|spark|3.3.0|官网获取，aarch64版本需移植，参考[spark移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/spark.md)|
+|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
+|spark|3.3.0|官网获取，aarch64版本需移植，参考[spark移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/spark.md)|
 ##### 1.2硬件要求
 ```
 最低配置：任意CPU、一根内存（大小不限）、一块硬盘（大小不限）。
@@ -54,7 +54,7 @@ yum install -y java-1.8.0
 java -version
 ```
 #### 3- 部署Spark
-在部署Hive之前请先安装部署好Hadoop,参考[hadoop部署指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
+在部署Hive之前请先安装部署好Hadoop,参考[hadoop部署指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
 ##### 3.1 安装Scala
 ```
 wget https://downloads.lightbend.com/scala/2.12.15/scala-2.12.15.tgz

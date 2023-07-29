@@ -5,9 +5,9 @@
 | 软件 | 说明 | 获取方法 |
 | ---------------- |---------------- |---------------- |
 |OpenJDK|1.8.0_342|yum安装或者官网获取|
-|flink|1.13.0|官网获取，aarch64版本需移植，参考[flink移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/flink.md)
-|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
-|zookeeper|3.8.1|官网获取，aarch64版本需移植，参考[zookeeper移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)|
+|flink|1.13.0|官网获取，aarch64版本需移植，参考[flink移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/flink.md)
+|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
+|zookeeper|3.8.1|官网获取，aarch64版本需移植，参考[zookeeper移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)|
 ##### 1.2硬件要求
 ```
 最低配置：任意CPU、一根内存（大小不限）、一块硬盘（大小不限）。
@@ -57,7 +57,7 @@ java -version
 #### 3-flink部署
 Flink的部署有3种模式，分别是local模式、Standalone模式、yarn模式。其中local就是单机模式，一般来说用于本地开发测试；Standalone跟yarn模式都可以支撑集群部署、实现HA，但是两者在任务分配机制、内存管理等内容上有比较大的差异。一般在处理计算数据量级非常大的生产环境，使用flink on yarn的模式更多一些。
 
-下载flink。 官网获取 或者 aarch64版本需移植，参考[flink移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/flink.md)。
+下载flink。 官网获取 或者 aarch64版本需移植，参考[flink移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/flink.md)。
 ##### 3.1 本地模式
 解压并直接执行 ./bin/start-cluster.sh  即可启动flink服务。
 ##### 3.2 Standalone模式
