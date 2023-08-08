@@ -5,8 +5,8 @@
 | 软件 | 说明 | 获取方法 |
 | ---------------- |---------------- |---------------- |
 |OpenJDK|1.8.0_342|yum安装或者官网获取|
-|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
-|zookeeper|3.8.1|官网获取，aarch64版本需移植，参考[zookeeper移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)|
+|hadoop|3.3.4|官网获取，aarch64版本需移植，参考[hadoop移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)|
+|zookeeper|3.8.1|官网获取，aarch64版本需移植，参考[zookeeper移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)|
 ##### 1.2硬件要求
 ```
 最低配置：任意CPU、一根内存（大小不限）、一块硬盘（大小不限）。
@@ -55,7 +55,7 @@ java -version
 ```
 #### 3-部署 ZooKeeper
 ##### 3.1 编译并解压 ZooKeeper
-步骤1 参考ZooKeeper移植指南“[zookeeper移植指南](https://gitee.com/macchen1/bigdata/blob/change-bigdat/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)”编译出“zookeeper-3.8.1.tar.gz”部署包。
+步骤1 参考ZooKeeper移植指南“[zookeeper移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/zookeeper.md)”编译出“zookeeper-3.8.1.tar.gz”部署包。
 ```
 步骤2 将zookeeper-3.8.1.tar.gz放置于agent1节点的“/usr/local”目录下，并解压。
 mv zookeeper-3.8.1.tar.gz /usr/local
