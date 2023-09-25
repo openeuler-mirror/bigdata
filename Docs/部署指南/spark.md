@@ -61,7 +61,7 @@ wget https://downloads.lightbend.com/scala/2.12.15/scala-2.12.15.tgz
 tar zxf scala-2.12.15.tgz -C /usr/local/
 ln -s /usr/local/scala /usr/local/scala-2.12.15
 ```
-##### 3.2 配置Spark环境变量（下面Spark的路径已经提前做了软连接的操作）
+##### 3.2 配置Spark环境变量（下面Spark的路径已经提前做了软链接的操作）
 ```
 vim /etc/profile
 #增加以下内容：
