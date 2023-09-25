@@ -55,7 +55,7 @@ java -version
 ```
 #### 3- 部署Hive
 在部署Hive之前请先安装部署好Hadoop,参考[hadoop部署指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
-##### 3.1 配置Hive环境变量（下面hive的路径已经提前做了软连接的操作）
+##### 3.1 配置Hive环境变量（下面hive的路径已经提前做了软链接的操作）
 ```
 vim /etc/profile
 #增加以下内容：
