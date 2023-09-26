@@ -60,13 +60,31 @@ java -version
 参考 [hadoop部署指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
 #### 5-部署hbase
 ##### 5.1 下载并解压 HBase
-步骤1 下载HBase。
-官网获取 或者 aarch64版本需移植，参考[hbase移植指南](https://gitee.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hbase.md)|
 ```
-步骤2 将hbase-2.5.0-bin.tar.gz放置于server1节点的“/usr/local”目录，并解压。
-mv hbase-2.5.0-bin.tar.gz /usr/local
-tar -zxvf hbase-2.5.0-bin.tar.gz
-步骤3 建立软链接，便于后期版本更换。
+步骤1 yum源配置
+目前hbase2.5.0支持以下的源：
+https://repo.openeuler.org/openEuler-22.03-LTS-SP1/EPOL/update/main/aarch64/
+https://repo.openeuler.org/openEuler-22.03-LTS-SP1/EPOL/update/main/x86_64/
+https://repo.openeuler.org/openEuler-22.03-LTS-SP2/EPOL/update/main/aarch64/
+https://repo.openeuler.org/openEuler-22.03-LTS-SP2/EPOL/update/main/x86_64/
+
+配置方法：
+```
+[openEuler-EPOL-update]
+name=openEuler-epol-update
+baseurl=https://repo.openeuler.org/openEuler-22.03-LTS-SP1/EPOL/update/main/aarch64/
+enabled=1
+gpgcheck=0
+```
+yum clean all
+yum makecache
+步骤2 yum安装HBase。
+yum list | grep hbase
+yum install hbase
+步骤3 安装的hbase目录位于/usr/share/下，此时可hbase version查看hbase版本
+也可自行放置于server1节点的“/usr/local”目录
+mv /usr/share/hbase /usr/local
+步骤4 视情况建立软链接，便于后期版本更换。
 ln -s hbase-2.5.0 hbase
 ```
 ##### 5.2 添加 HBase 到环境变量
