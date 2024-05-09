@@ -24,8 +24,8 @@
   - 陈强    [macchen1](https://gitee.com/macchen1)       email地址: mac.chenqiang@huawei.com
 
 ### Committer列表
-  - 温伟健    [wenwj0](https://gitee.com/wenwj0) email地址: weijian.wen@foxmail.com
-  - 吴治国  [kevinw66](https://gitee.com/kevinw66)         email地址: wzg547228197@163.com
+  - 温伟健    [wenwj0](https://gitee.com/wenwj0)         email地址: weijian.wen@foxmail.com
+  - 吴治国  [kevinw66](https://gitee.com/kevinw66)       email地址: wzg547228197@163.com
 
 # 创新项目
 | 项目 | 版本 | 状态 | 类别 |
