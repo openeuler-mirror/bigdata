@@ -26,9 +26,11 @@
 # 创新项目
 | 项目 | 版本 | 状态 | 类别 |
 | ---- | ---- | ---- | ---- |
-|[VectorBlas](https://gitee.com/openeuler/vectorBlas) | 1.0 | 引入中| 数学库 |
-|OmniRuntime算子下推 Hive特性|1.0|引入中|bigdata|
+|[VectorBlas](https://gitee.com/openeuler/vectorBlas) | 1.0 | 已引入| 数学库 |
+|OmniRuntime算子下推 Hive特性|1.0|已引入|bigdata|
 |Spark SQL Native|1.0|引入中|bigdata|
+|Uadk_bigdata|1.0|已引入|bigdata|
+|Bigtop manager|1.0|已引入|bigdata|
 
 # 开源实习
 openEuler开源实习是openEuler社区和社区合作单位共同发起的线上实习项目，旨在鼓励在校学生积极参与开源社区，在实际的开源环境中提升实践能力，在社区中成长为优秀的开源人才。
