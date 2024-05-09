@@ -99,15 +99,13 @@ bigdata 实习任务发布地址：https://www.openeuler.org/zh/sig/sig-detail/?
 ## 链接
 openEuler bigdata sig组 简介: https://gitee.com/openeuler/community/tree/master/sig/bigdata
 
-openEuler bigdata 月刊归档地址：
-
-邮件列表归档地址： 
+openEuler bigdata 月刊归档地址：https://gitee.com/openeuler/bigdata/wikis/bigdata ---> 大数据技术月刊
 
 会议纪要地址：[会议纪要](https://gitee.com/openeuler/bigdata/wikis/sig-bigdata%E4%BB%8B%E7%BB%8D)
 
 
 
-## 联系方式：
+## 联系方式
 邮箱地址：https://mailweb.openeuler.org/hyperkitty/list/bigdata@openeuler.org/
 
 微信公众号：openEuler-bigdata-sig
