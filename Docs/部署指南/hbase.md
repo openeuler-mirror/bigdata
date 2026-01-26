@@ -55,9 +55,9 @@ yum install -y java-1.8.0
 java -version
 ```
 #### 3-部署zookeeper
-参考 [hadoop部署指南](https://atomgit.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)
+参考 [hadoop部署指南](https://atomgit.com/openeuler/bigdata/blob/master/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
 #### 4-部署hadoop
-参考 [hadoop部署指南](https://atomgit.com/openeuler/bigdata/blob/master/Docs/%E7%A7%BB%E6%A4%8D%E6%8C%87%E5%8D%97/hadoop.md)
+参考 [hadoop部署指南](https://atomgit.com/openeuler/bigdata/blob/master/Docs/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/hadoop.md)
 #### 5-部署hbase
 ##### 5.1 下载并解压 HBase
 ```
