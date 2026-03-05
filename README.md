@@ -32,9 +32,16 @@
 | ---- | ---- | ---- | ---- |
 |[VectorBlas](https://atomgit.com/openeuler/vectorBlas) | 1.0 | 已引入| 数学库 |
 |[omnidata-hive-connector](https://atomgit.com/openeuler/omnidata-hive-connector)|1.0|已引入|bigdata|
-|Spark SQL Native|1.0|引入中|bigdata|
+|[CuckooSQL](https://atomgit.com/openeuler/CuckooSQL)|1.0|已引入|bigdata|
 |[uadk-bigdata](https://atomgit.com/openeuler/uadk-bigdata)|1.0|已引入|bigdata|
 |[Bigtop manager](https://atomgit.com/openeuler/bigtop-manager)|1.0|已引入|bigdata|
+|[Gluten](https://atomgit.com/openeuler/Gluten)|1.0|已引入|bigdata|
+|[Velox](https://atomgit.com/openeuler/velox)|1.0|已引入|bigdata|
+|[openAMDC](https://atomgit.com/openeuler/openAMDC)|1.0|已引入|bigdata|
+|[OmniOperator](https://atomgit.com/openeuler/OmniOperator)|1.0|已引入|bigdata|
+|[OmniStream](https://atomgit.com/openeuler/OmniStream)|1.0|已引入|bigdata|
+|[OmniStateStore](https://atomgit.com/openeuler/OmniStateStore)|1.0|已引入|bigdata|
+|[OmniAdaptor](https://atomgit.com/openeuler/OmniAdaptor)|1.0|已引入|bigdata|
 
 # 开源实习
 openEuler开源实习是openEuler社区和社区合作单位共同发起的线上实习项目，旨在鼓励在校学生积极参与开源社区，在实际的开源环境中提升实践能力，在社区中成长为优秀的开源人才。
